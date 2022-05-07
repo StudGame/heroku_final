@@ -2,7 +2,7 @@
 module.exports = {
     name: "emit",
     category: 'admin',
-    permissions: ['ADMINISTRATOR'],
+    //permissions: ['ADMINISTRATOR'],
     description: 'Emettre un evenement au choix !',
     run: (client, message, args) => {
     
