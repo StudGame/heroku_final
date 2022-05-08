@@ -29,7 +29,7 @@ const selectMenu = new MessageActionRow()
 module.exports = {
     name: "love",
     category: 'utils',
-    permissions: ['SEND_MESSAGES'],
+    permissions: ['ADMINISTRATOR'],
     usage: 'love',
     exemples: ['love'],
     description: 'love',

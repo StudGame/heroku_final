@@ -31,7 +31,7 @@ const buttons = new MessageActionRow()
 module.exports = {
     name: "button",
     category: 'utils',
-    permissions: ['SEND_MESSAGES'],
+    permissions: ['ADMINISTRATOR'],
     usage: 'button',
     exemples: ['button'],
     description: 'button',

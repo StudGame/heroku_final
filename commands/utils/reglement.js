@@ -22,7 +22,7 @@ const buttons = new MessageActionRow()
 module.exports = {
     name: "reglement",
     category: 'utils',
-    permissions: ['SEND_MESSAGES'],
+    permissions: ['ADMINISTRATOR'],
     usage: 'reglement',
     exemples: ['reglement'],
     description: 'La commande reglement permet d\'envoyer l\'embed des règles',

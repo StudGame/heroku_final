@@ -24,7 +24,7 @@ const selectMenu = new MessageActionRow()
 module.exports = {
     name: "age",
     category: 'utils',
-    permissions: ['SEND_MESSAGES'],
+    permissions: ['ADMINISTRATOR'],
     usage: 'age',
     exemples: ['age'],
     description: 'age',
