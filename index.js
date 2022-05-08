@@ -30,4 +30,4 @@ mongoose.connect(process.env.DATABASE_URI, {
 }).then(() => { Logger.client('- connecté a la base de données'); })
 .catch(err => { Logger.error(err); });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.null);
